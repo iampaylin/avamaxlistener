@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ava Max</title>
+
+    <link rel="stylesheet" href="avamax.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+    <script src="avamax.js"></script>
+</head>
+<body>
+    <!-- Audios -->
+
+    <audio src="audios/mytp.mp3" id="mytpmp3"></audio>
+    <audio src="audios/soami.mp3" id="soamimp3"></audio>
+    <audio src="audios/wlnow.mp3" id="wlnowmp3"></audio>
+    <audio src="audios/sweetbp.mp3" id="sweetbpmp3"></audio>
+
+    <!-- Audios -->
+
+    <header>
+        <h1 onclick="retornar()">Ava Max Listener</h1>
+    </header>
+    <main>
+        <div>
+            <img src="imagens/avamax.jpg" alt="" id="image">
+            <div class="botoes">
+                <h2>Singles</h2>
+                <input type="button" class="song" value="Maybe You're The Problem" id="mytp" onclick="maybeytp()">
+                <input type="button" class="song" value="So Am I" id="soami" onclick="soAmI()">
+                <input type="button" class="song" value="Who's Laughing Now" id="whoslnow"  onclick="whosLaNow()">
+                <input type="button" class="song" value="Sweet But Psycho" id="sweetbutpsycho" onclick="sweetButPs()">
+                <input type="button" class="parar" value="Parar música" onclick="parar()">
+            </div>
+        </div>
+    </main>
+    <script src="avamax.js"></script>
+</body>
+</html>
